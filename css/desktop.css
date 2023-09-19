@@ -1,0 +1,81 @@
+body {
+    align-items: center;
+    min-height: 100vh;
+}
+
+.component {
+    display: flex;
+    gap: 40px;
+
+    border-radius: 30px;
+        
+    /*box-shadow: 30px 40px 80px -50px hsl(234, 85%, 45%, .3);*/
+    box-shadow: 20px 20px 50px -32px hsl(234, 85%, 45%, .3);
+}
+
+.component h2 {
+    padding-top: 40px;
+    font-size: 1.4em;
+}
+
+.result-container {
+    width: 450px;
+}
+
+.result-container h2:nth-child(1) {
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.result-score {
+    width: 180px;
+    height: 180px;
+
+    margin-top: 10px;
+}
+
+.result-container {
+    border-top-left-radius: 7%;
+    border-top-right-radius: 7%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+}
+
+.result-comment {
+    width: 70%;
+    margin-top: -10px;
+}
+
+.result-container .result-comment h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.result-container .result-comment div {
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+.result-container .result-comment p {
+    text-align: center;
+    font-size: 1em
+}
+
+.summary {
+    width: 55%;
+    padding-right: 30px;
+}
+
+.summary .summary-details .summary-detail {
+    margin-bottom: 10px;
+}
+
+.summary h3 {
+    margin-top: 20px;
+}
+
+.summary button {
+    margin-top: 20px;
+    height: 50px;
+}
